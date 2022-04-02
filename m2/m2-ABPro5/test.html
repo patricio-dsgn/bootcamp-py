@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+  <!-- 
+    Este ejemplo bloquea el envío del formulario si están vacio el input
+
+    SI funciona en mi computador
+    NO funciona en Replit(ni idea porqué)  
+  -->
+
+<form id="myform" action="enviar.php" onsubmit="return enviar();">
+  <label for="comando">Comando: </label><br/>
+    <input id="cosa" type="text" id="comando"/><br/>
+    <button>Enviar formulario</button>
+</form>
+
+
+<script>
+
+function enviar() {
+  let x = document.getElementById("cosa").value;
+    if (x=='') {
+        return false;
+    } else {
+        return true;
+    }
+}

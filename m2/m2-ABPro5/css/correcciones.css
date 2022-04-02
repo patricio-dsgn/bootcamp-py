@@ -1,0 +1,24 @@
+.bg1{
+  background-image: url('https://assets.diarioconcepcion.cl/2019/02/Dulces-golosina-.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.f1{
+  height: 200px;
+}
+
+.c1{
+  background-color:#ffbe0a!important ;
+}
+
+
+.error{
+  background-color: red;
+}
+
+.ok{
+  background-color: green;
+}
+

@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./css/contacto.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/menu.css">
+  
+ 
+    <script src="https://kit.fontawesome.com/14fb81780e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+    <header>
+        <h1 class="logo">
+            <img src="./img/logo2.svg" alt="">
+        </h1>
+        <p class="mitexto1">Te llevamos los mejores productos a la puerta de tu casa!</p>
+        <nav class="menu-desk">
+            <ul>
+                <li> <a class="btn-menu" href="./index.html">Home </a> </li>
+                <li> <a class="btn-menu" href="./page1.html" disabled>Productos </a> </li>
+                <li> <a class="btn-menu" href="./page2.html" disabled>Seguimiento </a> </li>
+                <li class="btn-on"> <a class="btn-menu" href="./contacto.html">Contacto </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+    <section>
+
+    <form action="./action_page.php">
+
+      <label for="fname">Nombre</label>
+      <input type="text" id="fname" name="fname" placeholder="Ingresa tu nombre">
+      
+      <label for="fmail">Email</label>
+      <input type="text" id="fmail" name="fmail" placeholder="Ingresa tu email">
+      
+      <label for="country">Pais</label>
+      <select id="country" name="country">
+        <option value="chile">Chile</option>
+        <option value="argentina">Argentina</option>
+        <option value="colombia">Colombia</option>
+        <option value="otro">Otro</option>
+      </select>
+
+      <label for="subject">Tema</label>
+      <textarea id="subject" name="subject" placeholder="Escribe aquí te mensaje"></textarea>
+
+      
+      <button id="send" type="submit">
+        Enviar formulario ahora
+        <i class="fas fa-paper-plane"></i>
+      </button>
+    </form>
+
+
+
+    </section>
+
+
+
+
+
+    <footer>
+        <h3> Sobre TE LO VENDO </h3>
+        <nav class="menu-info">
+            <ul>
+                <li> <a href="./page1.html">Preguntas Frecuentes </a> </li>
+                <li> <a href="./page2.html">Como Comprar </a> </li>
+                <li> <a href="./page3.html">Plazos de Entrega </a> </li>
+            </ul>
+        </nav>
+
+
+        <h3> Siguenos </h3>
+        <nav class="menu-social">
+            <ul>
+                <li>
+                  <a href="www.facebook.com">
+                    <i class="fab fa-facebook btn-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="www.twitter.com">
+                    <i class="fab fa-twitter btn-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="www.instagram.com">
+                    <i class="fab fa-instagram btn-instagram"></i>
+                  </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="team">
+          <p>Francisco Astete</p>
+          <p>Ignacio Montero</p>
+          <p>Patricio Garrido</p>
+        </div>
+
+
+    </footer>
+
+
+
+
+</body>
+</html>
+

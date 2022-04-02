@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+header{
+  padding: 50px;
+  background-color: #fcac00;
+  font-size: large;
+ }
+
+section{
+  padding: 50px;
+  background-color: #00ffaa;
+  text-align: center;
+}
+
+footer{
+  padding: 50px;
+  background-color: #00d9ff;
+  text-align: center;
+}
+
+footer p{
+  color: #730;
+}
+
+
+.logo{
+  width: 300px;
+  margin: auto;
+}
+
+
+
+.foto1{
+  width: 50%;
+  border-radius: 5px;
+}
+
+#t1{
+  color: rgb(255, 255, 255);
+}
+
+
+.btn-menu{
+  text-decoration: none;
+  color: rgb(85, 85, 253);
+}
+
+.menu-desk ul li a{
+
+  color: black;
+  font-size: medium;
+}
+
+.menu-footer ul li a{
+
+  color: black;
+  font-size: smaller;
+}
+
+.divisor {
+  border: 1px outset rgb(200, 200, 200);
+  background-color: lightblue;
+  text-align: center;
+}
+
+
+
+
+
+
+h1{
+  color: #f07;
+}
+
+h2{
+  margin: 50px;
+}
+
+
+
+.imp1{
+  color: #00c3ff;
+  font-size: 80px;
+}
+.imp2{
+  color: #4edf1d;
+}
+
+
+
+.mitexto1 {
+  font-size: 16px;
+  line-height: 15px;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mitexto2 {
+  font-size: 18px;
+  line-height: 32px;
+  font-style: italic;
+  margin: 20px;
+}
+
+
+
+/* 
+.menu-desk a{
+  color: red;
+}
+
+.menu-desk ul li a{
+  color: green;
+}
+*/
+
+
+.team{
+  margin: 100px;
+  padding-top: 50px;
+  font-size: 80%;
+  border-top: 1px solid #0077ff;
+}
+
+.team p{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+
+
+
+.gallery{
+  width: 60%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.gallery img{
+  width: 150px;
+  height: 150px;
+  vertical-align: top;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+
+  .foto1{
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+  nav li{
+    margin: 5px;
+  }
+
+  .gallery{
+    width: 100%;
+  }
+
+  .foto1{
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+  }
+}
+
+
+
+@media only screen and (max-width: 576px) {
+
+
+
+  .logo{
+    width: 100%;
+  }
+
+  .gallery img{
+    width: 250px;
+    height: 250px;
+    vertical-align: top;
+    margin: 10px;
+    border-radius: 50%;
+  }
+
+
+  .team{
+    margin: auto;
+    font-size: 120%;
+  }
+
+
+  input[type=text], select, textarea {
+    width: 100%;
+  }
+
+  .foto1{
+    border: 1px solid rgb(255, 255, 255);
+  }
+}
+
+
+
+
+@media only screen and (max-width: 368px) {
+.gallery img{
+  width: 200px;
+  height: 200px;
+}
+
+  .foto1{
+    border: 1px solid rgb(255, 255, 255);
+  }
+}
+
+
+
+
+
+

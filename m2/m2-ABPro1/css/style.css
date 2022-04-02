@@ -1,0 +1,100 @@
+*{
+    margin: 5;
+    padding: 5;
+    border: 5;
+ }
+
+ body{
+     font-family: 'Lato', sans-serif;
+ }
+
+ header{
+     padding: 50px;
+     background-color: rgb(220, 220, 220);
+     font-size: large;
+ }
+
+ section{
+    padding: 50px;
+    background-color: rgb(160, 160, 160);
+ }
+
+ footer{
+    padding: 50px;
+    background-color: rgb(219, 219, 219);
+ }
+
+ footer p{
+     color: #730;
+ }
+
+ .mitexto1 {
+     font-size: 12px;
+     line-height: 15px;
+     font-style: italic;
+ }
+
+ .mitexto2 {
+    font-size: 18px;
+    line-height: 32px;
+    font-style: italic;
+}
+
+ .foto1{
+     width: 50%;
+     border-radius: 5px;
+ }
+
+#t1{
+     color: rgb(255, 255, 255);
+}
+
+
+.btn-menu{
+    text-decoration: none;
+    color: rgb(85, 85, 253);
+}
+
+.menu-desk ul li a{
+
+    color: black;
+    font-size: medium;
+}
+
+.menu-footer ul li a{
+
+    color: black;
+    font-size: smaller;
+}
+
+.divisor {
+    border: 1px outset rgb(200, 200, 200);
+    background-color: lightblue;
+    text-align: center;
+
+/* 
+.menu-desk a{
+    color: red;
+}
+
+.menu-desk ul li a{
+    color: green;
+}
+*/
+
+
+@media only screen and (max-width: 768px) {
+
+    .foto1{
+        width: 100%;
+        
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+@media only screen and (max-width: 576px) {
+
+    .foto1{
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+}
